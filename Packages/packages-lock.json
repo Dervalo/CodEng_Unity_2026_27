@@ -6,8 +6,8 @@
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "2.0.2",
-        "com.unity.2d.sprite": "1.0.0",
-        "com.unity.mathematics": "1.1.0"
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.2d.sprite": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -40,8 +40,8 @@
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "2.0.2",
-        "com.unity.2d.sprite": "1.0.0",
-        "com.unity.2d.animation": "3.2.2"
+        "com.unity.2d.animation": "3.2.2",
+        "com.unity.2d.sprite": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -56,9 +56,9 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.2d.path": "2.0.5",
+        "com.unity.mathematics": "1.1.0",
         "com.unity.2d.common": "2.0.2",
-        "com.unity.mathematics": "1.1.0"
+        "com.unity.2d.path": "2.0.5"
       },
       "url": "https://packages.unity.com"
     },
@@ -126,8 +126,8 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.shadergraph": "7.3.1",
-        "com.unity.render-pipelines.core": "7.3.1"
+        "com.unity.render-pipelines.core": "7.3.1",
+        "com.unity.shadergraph": "7.3.1"
       },
       "url": "https://packages.unity.com"
     },

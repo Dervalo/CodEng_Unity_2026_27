@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 453496587237905750}
   - component: {fileID: 9197406603783271674}
   - component: {fileID: -2425011099193524013}
+  - component: {fileID: 7271834438705794209}
   m_Layer: 0
-  m_Name: pfWoodHarvester
+  m_Name: pfGoldHarvester
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,7 +58,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86954359c6eb3b49bcb19ab67f0ed28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingType: {fileID: 11400000, guid: a4c7caaab86fd4842b28a419db0d8ce1, type: 2}
+  buildingType: {fileID: 11400000, guid: 5637bb802328b9c4fa71fb7762e710bb, type: 2}
+--- !u!61 &7271834438705794209
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496443380849652572}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.02533245, y: -0.22798729}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.9144, y: 4.1580505}
+  m_EdgeRadius: 0
 --- !u!1 &6239380132114484081
 GameObject:
   m_ObjectHideFlags: 0
@@ -68,6 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8566396461510168542}
   - component: {fileID: 1033161075248750590}
+  - component: {fileID: 1170095535325093173}
   m_Layer: 0
   m_Name: sprite
   m_TagString: Untagged
@@ -128,7 +156,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 793ca27a5a3378149aaa12abe85933f4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8ead931dd91bff8489e75de9c414f17f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -139,3 +167,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1170095535325093173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6239380132114484081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df91be42b43f974d9ae6e475efeebbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runOnce: 1
+  positionOffsetY: 0
